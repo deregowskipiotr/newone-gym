@@ -35,8 +35,8 @@ const Home = ({ setSelectedPage }: Props) => {
             className="md:-mt-20"
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 1 }}
-            transition={{ duration: 2 }}
+            viewport={{ once: true, amount: 0.7 }}
+            transition={{ duration: 1 }}
             variants={{
               hidden: { opacity: 0, x: -60 },
               visible: { opacity: 1, x: 0 }
@@ -59,8 +59,8 @@ const Home = ({ setSelectedPage }: Props) => {
             className="mt-8 flex items-center gap-8"
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 1 }}
-            transition={{ delay: 0.4, duration: 2 }}
+            viewport={{ once: true, amount: 0.7 }}
+            transition={{ delay: 0.4, duration: 1 }}
             variants={{
               hidden: { opacity: 0, x: -60 },
               visible: { opacity: 1, x: 0 }

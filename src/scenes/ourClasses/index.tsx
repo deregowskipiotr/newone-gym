@@ -59,8 +59,8 @@ const index = ({ setSelectedPage}: Props) => {
           className='mx-auto w-5/6'
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 1 }}
-          transition={{ duration: 2 }}
+          viewport={{ once: true, amount: 0.7 }}
+          transition={{ duration: 1 }}
           variants={{
             hidden: { opacity: 0, x: -60 },
             visible: { opacity: 1, x: 0 }
