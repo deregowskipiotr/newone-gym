@@ -9,7 +9,7 @@ import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 const benefits: Array<BenefitType> = [
  { 
   icon: <HomeModernIcon className="h-6 w-6" />,
-  title: "state of the Art Facilities",
+  title: "State of the Art Facilities",
   description: "Our facilities are designed to provide a comfortable and productive workout environment.",
  },
  {
@@ -27,7 +27,7 @@ const benefits: Array<BenefitType> = [
 const container = {
   hidden: {},
   visible: {
-    transition: { staggerChildren: 0.4 }
+    transition: { staggerChildren: 0.3 }
   }
 }
 
